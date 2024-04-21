@@ -1,0 +1,20 @@
+.project-grid{
+    display: grid;
+    background-color: lightgreen;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.project-preview{
+    background-color: pink;
+}
+
+.right-side{
+    position: absolute;
+    background-color: lightblue;
+    width: 200px;
+    right: 0;
+    top: 0;
+}
