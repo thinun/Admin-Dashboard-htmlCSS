@@ -1,0 +1,140 @@
+.header{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+.header-1{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 350px;
+
+}
+.header-1-left{
+    display: flex;
+    align-items: center;
+}
+.search-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+.search-button{
+    width: 35px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+}
+.search-button:hover{
+    cursor: pointer;
+}
+
+.search-bar{
+    display: flex;
+    flex: 1;
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: none;
+    background-color: #ececec;
+    color: black;
+}
+.search-button{
+    border: none;
+}
+.header-1-right{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+    padding: 30px;
+}
+.notification-img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+.notification-img:hover{
+    cursor: pointer;
+}
+.header-pro-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.header-pro-pic:hover{
+    cursor: pointer;
+}
+
+.header-user-name{
+    padding-left: 20px;
+}
+.header-2{
+    padding-left: 350px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header-2-left{
+    display: flex;
+    align-items: center;
+
+}
+.header-2-right{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.header-2-pro-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+.header-2-pro-pic:hover{
+    cursor: pointer;
+}
+.header-2-button{
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7979ff;
+    font-family: Bahnschrift, serif;
+    font-size: 15px;
+
+}
+.header-2-button:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(121,121,255,0.8);
+    transition: box-shadow 0.3s;
+}
+.header-2-text-container{
+    margin-left: 20px;
+}
+.header-2-text-container:hover{
+    cursor: default;
+}
+.header-2-text{
+    margin: 0;
+    font-size: 13px;
+}
+.header-2-user-name{
+    margin:0 ;
+    font-size: 20px;
+}
