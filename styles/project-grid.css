@@ -60,6 +60,9 @@
     height: 30px;
     margin: 10px;
 }
+.project-bottom-pic:hover{
+    cursor: pointer;
+}
 
 .project-description {
     font-family: Bahnschrift, serif;
@@ -78,10 +81,12 @@
     background-color: white;
     border-radius: 5px;
     margin-top: 10px;
-
+}
+.trending-container,
+.announcement-container:hover{
+    cursor: default;
 
 }
-
 .announcement-details {
     font-size: 12px;
     margin: 2px;
