@@ -1,19 +1,20 @@
-.main-grid{
+.main-grid {
     display: grid;
     grid-template-columns: 1050px 1fr;
     align-items: start;
 
 }
+
 .project-grid {
 
     display: grid;
-    flex:1;
     background-color: #ececec;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-top: 150px;
     margin-left: 250px;
 }
-.right-side{
+
+.right-side {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +23,7 @@
     margin-top: 150px;
 
 }
+
 .project {
 
     flex: 1;
@@ -39,9 +41,10 @@
     column-gap: 20px;
     row-gap: 20px;
 }
-.project:hover{
+
+.project:hover {
     cursor: default;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: box-shadow 0.3s;
 }
 
@@ -75,8 +78,6 @@
     background-color: white;
     border-radius: 5px;
     margin-top: 10px;
-
-
 
 
 }
@@ -136,6 +137,14 @@
 
 .trending-project-name {
     margin: 0;
+
 }
 
 
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+
+    }
+
+}
