@@ -1,8 +1,12 @@
 .sidebar{
+
     z-index: 2;
+    display: flex;
     position: fixed;
-    height: 800px;
     width: 250px;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
     background-color: #7979ff;
 }
 .dashboard-icon{
@@ -16,7 +20,7 @@
     font-size: 25px;
 }
 .sidebar-icon-set1{
-    margin-top: 30px;
+    padding-top: 50px;
     padding-left: 50px;
 }
 .sidebar-buttons{
@@ -35,7 +39,7 @@
 
 }
 .sidebar-icon-set2{
-    margin-top: 50px;
+    padding-top: 50px;
     padding-left: 50px;
 }
 .sidebar-buttons:hover{
