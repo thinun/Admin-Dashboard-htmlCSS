@@ -41,7 +41,6 @@
     column-gap: 20px;
     row-gap: 20px;
 }
-
 .project:hover {
     cursor: default;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -50,15 +49,15 @@
 
 .project-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 
 
 }
 
 .project-bottom-pic {
-    width: 30px;
+    padding-left: 10px;
     height: 30px;
-    margin: 10px;
+    padding-bottom: 20px;
 }
 .project-bottom-pic:hover{
     cursor: pointer;
@@ -152,4 +151,28 @@
 
     }
 
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+
+}
+.tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    top: 100%; /* Position the tooltip below the image */
+    left: 50%;
+    transform: translateX(-50%); /* Center the tooltip horizontally */
+    background-color: black; /* Customize background color */
+    color: white;
+    font-size: 13px;/* Customize text color */
+    text-align: center;
+    border-radius: 6px; /* Add rounded corners */
+    padding: 5px; /* Add padding */
+    z-index: 1; /* Ensure tooltip is above other elements */
+
+}
+.tooltip:hover .tooltip-text {
+    visibility: visible; /* Show tooltip on hover */
 }
